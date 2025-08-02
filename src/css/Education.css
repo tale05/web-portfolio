@@ -1,89 +1,89 @@
-@import './variables.css';
+@import "./variables.css";
 
 .education-container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    color: #FFFFFF;
-    background-color: #000000;
-    display: block;
+   width: 1200px;
+   margin: 0 auto;
+   padding: 40px 20px;
+   color: #ffffff;
+   background-color: #000000;
+   display: block;
 }
 
 .education-title-container {
-    display: inline-block;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 10px 0;
+   display: inline-block;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   padding: 10px 0;
 }
 
 .education-title {
-    font-size: 2.5rem;
-    text-align: left;
-    color: var(--my-color);
-    font-weight: bold;
+   font-size: 2.5rem;
+   text-align: left;
+   color: var(--my-color);
+   font-weight: bold;
 }
 
 .education-icon {
-    width: 40px;
-    height: 30px;
-    margin-top: 10px;
-    color: var(--my-color);
+   width: 40px;
+   height: 30px;
+   margin-top: 10px;
+   color: var(--my-color);
 }
 
 .education-inline-block-card {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: flex-start;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: flex-start;
 }
 
 .custom-card {
-    width: 590px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-top: 25px;
+   width: 590px;
+   overflow: hidden;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   margin-top: 25px;
 }
 
 .custom-card-media {
-    height: 200px;
+   height: 200px;
 }
 
 .custom-card-description {
-    color: #ffffff;
+   color: #ffffff;
 }
 
 @media (max-width: 600px) {
-    .education-container {
-        max-width: 99vw;
-        padding: 0 0 20px 0;
-        margin: 0;
-    }
+   .education-container {
+      max-width: 99vw;
+      padding: 0 0 20px 0;
+      margin: 0;
+   }
 
-    .education-container h2 {
-        padding: 0 0 0 25px;
-    }
+   .education-container h2 {
+      padding: 0 0 0 25px;
+   }
 
-    .education-title-container {
-        margin: 0 auto;
-        padding: 0 auto;
-    }
+   .education-title-container {
+      margin: 0 auto;
+      padding: 0 auto;
+   }
 
-    .education-title {
-        font-size: 2rem;
-        text-align: left;
-    }
+   .education-title {
+      font-size: 2rem;
+      text-align: left;
+   }
 
-    .education-icon {
-        width: 30px;
-        height: 30px;
-        margin: 10px 0 0 25px;
-    }
+   .education-icon {
+      width: 30px;
+      height: 30px;
+      margin: 10px 0 0 25px;
+   }
 
-    .education-inline-block-card {
-        padding: 0 25px;
-        margin: 0 auto;
-        gap: 5px;
-    }
+   .education-inline-block-card {
+      padding: 0 25px;
+      margin: 0 auto;
+      gap: 5px;
+   }
 }
