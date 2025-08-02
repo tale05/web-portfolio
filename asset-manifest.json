@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/web-portfolio/static/css/main.2759b015.css",
-    "main.js": "/web-portfolio/static/js/main.40a3e833.js",
+    "main.css": "/web-portfolio/static/css/main.2ed4ddd5.css",
+    "main.js": "/web-portfolio/static/js/main.0b534f98.js",
     "static/media/img2.webp": "/web-portfolio/static/media/img2.2f9f2722e07f36b82373.webp",
     "static/media/doc1.pdf": "/web-portfolio/static/media/doc1.a395f8c4479491baf2d0.pdf",
     "static/media/img1.webp": "/web-portfolio/static/media/img1.f92b29c515406ad24101.webp",
     "static/media/doc2.pdf": "/web-portfolio/static/media/doc2.39ceabd38bce2070bdba.pdf",
-    "static/media/CV_PhamLeTuanAnh_DEU.pdf": "/web-portfolio/static/media/CV_PhamLeTuanAnh_DEU.67421a10976e64657ea5.pdf",
-    "static/media/CV_PhamLeTuanAnh_ENG.pdf": "/web-portfolio/static/media/CV_PhamLeTuanAnh_ENG.6e0b3766db8476d20489.pdf",
+    "static/media/CV_PhamLeTuanAnh_DEU.pdf": "/web-portfolio/static/media/CV_PhamLeTuanAnh_DEU.d0bd523c9340188161db.pdf",
+    "static/media/CV_PhamLeTuanAnh_ENG.pdf": "/web-portfolio/static/media/CV_PhamLeTuanAnh_ENG.6191ccb012273371fd14.pdf",
     "static/media/img3_thumbnail.jpg": "/web-portfolio/static/media/img3_thumbnail.5912c6bfdd77f8da47e3.jpg",
     "static/media/myAva.jpg": "/web-portfolio/static/media/myAva.a76d25c0e036318620dc.jpg",
     "static/media/sqlicon-removebg-preview.png": "/web-portfolio/static/media/sqlicon-removebg-preview.a212a735098c31262fbb.png",
@@ -18,11 +18,11 @@
     "static/media/winscp.png": "/web-portfolio/static/media/winscp.aff3befd10d8b4d8ccf4.png",
     "static/media/excelIcon.png": "/web-portfolio/static/media/excelIcon.18b2ea21075ddfaf9a00.png",
     "index.html": "/web-portfolio/index.html",
-    "main.2759b015.css.map": "/web-portfolio/static/css/main.2759b015.css.map",
-    "main.40a3e833.js.map": "/web-portfolio/static/js/main.40a3e833.js.map"
+    "main.2ed4ddd5.css.map": "/web-portfolio/static/css/main.2ed4ddd5.css.map",
+    "main.0b534f98.js.map": "/web-portfolio/static/js/main.0b534f98.js.map"
   },
   "entrypoints": [
-    "static/css/main.2759b015.css",
-    "static/js/main.40a3e833.js"
+    "static/css/main.2ed4ddd5.css",
+    "static/js/main.0b534f98.js"
   ]
 }
