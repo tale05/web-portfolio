@@ -1,6 +1,6 @@
 :root {
     --font-family-main: 'Poppins', sans-serif;
-    --neon-blue: #00f0ff;
+    --my-color: #35a513;
 }
 
 @keyframes slideInFromLeft {

@@ -51,6 +51,7 @@ const Contact = () => {
 
             <form className="contact-input-container" onSubmit={handleSubmit}>
                 <input
+                    className="contact-input-name"
                     type="text"
                     name="name"
                     placeholder="Your name..."
@@ -59,6 +60,7 @@ const Contact = () => {
                     required
                 />
                 <input
+                    className="contact-input-email"
                     type="email"
                     name="email"
                     placeholder="Your email..."
@@ -67,6 +69,7 @@ const Contact = () => {
                     required
                 />
                 <input
+                    className="contact-input-message"
                     type="text"
                     name="message"
                     placeholder="Your message..."

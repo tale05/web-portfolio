@@ -44,20 +44,20 @@ const Education = () => {
                         <Button
                             size="normal"
                             component="a"
-                            href="https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_Th%C6%B0%C6%A1ng_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Learn More
-                        </Button>
-                        <Button
-                            size="normal"
-                            component="a"
                             href={myDegreePdf1}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             My Degrees
+                        </Button>
+                        <Button
+                            size="normal"
+                            component="a"
+                            href="https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_Th%C6%B0%C6%A1ng_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            More
                         </Button>
                     </CardActions>
                 </Card>
@@ -85,20 +85,20 @@ const Education = () => {
                         <Button
                             size="normal"
                             component="a"
-                            href="https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Trung_h%E1%BB%8Dc_ph%E1%BB%95_th%C3%B4ng_Marie_Curie"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Learn More
-                        </Button>
-                        <Button
-                            size="normal"
-                            component="a"
                             href={myDegreePdf2}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             My Degrees
+                        </Button>
+                        <Button
+                            size="normal"
+                            component="a"
+                            href="https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Trung_h%E1%BB%8Dc_ph%E1%BB%95_th%C3%B4ng_Marie_Curie"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            More
                         </Button>
                     </CardActions>
                 </Card>

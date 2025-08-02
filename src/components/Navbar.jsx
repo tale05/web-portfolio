@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import '../css/Navbar.css';
 import { FaHome, FaCode, FaGraduationCap, FaGlobe, FaCertificate, FaBars } from 'react-icons/fa';
-import Img1 from '../assets/img1.jpg';
+import myAva from '../assets/myAva.jpg';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="left-column-navbar">
         <span>
-          <img src={Img1} alt="Logo" />
+          <img src={myAva} alt="Logo" />
           LE TUAN ANH PHAM
         </span>
       </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
         <ul>
           <li>
             <a
-              href="/"
+              href="#home"
               onClick={() => {
                 setMenuOpen(false);
                 document.getElementById("home")?.scrollIntoView({ behavior: "smooth" });
