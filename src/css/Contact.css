@@ -1,0 +1,30 @@
+@import '../css/variables.css';
+
+.contact-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    justify-content: left;
+    gap: 20px;
+}
+
+.contact-tittle-container {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    text-align: left;
+    color: var(--neon-blue);
+    font-weight: bold;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 30px;
+    margin-top: 10px;
+    color: var(--neon-blue);
+}

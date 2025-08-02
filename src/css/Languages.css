@@ -1,0 +1,153 @@
+@import '../css/variables.css';
+
+.skills-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    justify-content: left;
+    gap: 20px;
+}
+
+.skills-container h2 {
+    color: #fff;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+.skills-tittle-container {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.skills-title {
+    font-size: 2.5rem;
+    text-align: left;
+    color: var(--neon-blue);
+    font-weight: bold;
+}
+
+.skills-icon {
+    width: 40px;
+    height: 30px;
+    margin-top: 10px;
+    color: var(--neon-blue);
+}
+
+.skills-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: left;
+    color: white;
+}
+
+.skills-section {
+    color: white;
+    padding: 20px 0;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.skill-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    background-color: #f9f9f9;
+    color: #222;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.iconListSkill {
+    margin-bottom: 10px;
+}
+
+.nameListSkill {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.levelListSkill {
+    font-size: 14px;
+    color: gray;
+}
+
+@media (max-width: 600px) {
+    .skills-container {
+        max-width: 99vw;
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    .skills-container h2 {
+        padding: 0 0 0 25px;
+    }
+
+    .skills-tittle-container {
+        padding: 20px 0;
+    }
+
+    .skills-title {
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .skills-icon {
+        width: 30px;
+        height: 30px;
+        margin: 10px 0 0 25px;
+    }
+
+    .skills-description {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .skills-section {
+        padding: 12px 0;
+        margin: 0 auto;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding: 0 8px;
+        width: 90%;
+    }
+
+    .skill-card {
+        padding: 14px 10px;
+        border-radius: 10px;
+        margin-left: 4px;
+    }
+
+    .iconListSkill {
+        margin-bottom: 8px;
+        font-size: 22px;
+    }
+
+    .nameListSkill {
+        font-size: 1.05rem;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .levelListSkill {
+        font-size: 0.92rem;
+    }
+}
