@@ -10,6 +10,7 @@ import {
    SiGithub,
    SiPostman,
    SiDocker,
+   SiGit,
 } from "react-icons/si";
 import csharpIcon from "../assets/csharpicon-removebg-preview.png";
 import sqlIcon from "../assets/sqlicon-removebg-preview.png";
@@ -39,7 +40,7 @@ const skills = [
       levelListSkill: "Advanced",
    },
    {
-      iconListSkill: <FaReact color="green" size={iconSize} />,
+      iconListSkill: <FaReact color="#22d2e9ff" size={iconSize} />,
       nameListSkill: "ReactJS",
       levelListSkill: "Basic",
    },
@@ -93,6 +94,11 @@ const tools = [
    {
       icon: <SiGithub color="black" size={iconSize} />,
       name: "GitHub",
+      level: "Advanced",
+   },
+   {
+      icon: <SiGit color="#f05033" size={iconSize} />,
+      name: "Git",
       level: "Advanced",
    },
    {
