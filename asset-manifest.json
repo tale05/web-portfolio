@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/web-portfolio/static/css/main.32967f93.css",
-    "main.js": "/web-portfolio/static/js/main.fcf56e08.js",
+    "main.js": "/web-portfolio/static/js/main.ef4cbb02.js",
     "static/media/img2.webp": "/web-portfolio/static/media/img2.2f9f2722e07f36b82373.webp",
     "static/media/doc1.pdf": "/web-portfolio/static/media/doc1.a395f8c4479491baf2d0.pdf",
     "static/media/img1.webp": "/web-portfolio/static/media/img1.f92b29c515406ad24101.webp",
     "static/media/doc2.pdf": "/web-portfolio/static/media/doc2.39ceabd38bce2070bdba.pdf",
-    "static/media/CV_PhamLeTuanAnh_DEU.pdf": "/web-portfolio/static/media/CV_PhamLeTuanAnh_DEU.b7159d6a1a6b8606d6af.pdf",
-    "static/media/CV_PhamLeTuanAnh_ENG.pdf": "/web-portfolio/static/media/CV_PhamLeTuanAnh_ENG.c4fbfafe216eace4eb7a.pdf",
+    "static/media/CV_PhamLeTuanAnh_DEU.pdf": "/web-portfolio/static/media/CV_PhamLeTuanAnh_DEU.a8ce278fd7d46db09371.pdf",
+    "static/media/CV_PhamLeTuanAnh_ENG.pdf": "/web-portfolio/static/media/CV_PhamLeTuanAnh_ENG.9726d67c88615e955093.pdf",
     "static/media/img3_thumbnail.jpg": "/web-portfolio/static/media/img3_thumbnail.5912c6bfdd77f8da47e3.jpg",
     "static/media/myAva.jpg": "/web-portfolio/static/media/myAva.a76d25c0e036318620dc.jpg",
     "static/media/sqlicon-removebg-preview.png": "/web-portfolio/static/media/sqlicon-removebg-preview.a212a735098c31262fbb.png",
@@ -19,10 +19,10 @@
     "static/media/excelIcon.png": "/web-portfolio/static/media/excelIcon.18b2ea21075ddfaf9a00.png",
     "index.html": "/web-portfolio/index.html",
     "main.32967f93.css.map": "/web-portfolio/static/css/main.32967f93.css.map",
-    "main.fcf56e08.js.map": "/web-portfolio/static/js/main.fcf56e08.js.map"
+    "main.ef4cbb02.js.map": "/web-portfolio/static/js/main.ef4cbb02.js.map"
   },
   "entrypoints": [
     "static/css/main.32967f93.css",
-    "static/js/main.fcf56e08.js"
+    "static/js/main.ef4cbb02.js"
   ]
 }
