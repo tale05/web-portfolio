@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/web-portfolio/static/css/main.c3cf2876.css",
-    "main.js": "/web-portfolio/static/js/main.91e15b5d.js",
+    "main.js": "/web-portfolio/static/js/main.b182aa0c.js",
     "static/media/Certificate_TOEIC.jpg": "/web-portfolio/static/media/Certificate_TOEIC.75d05bac2d9f5da6f29c.jpg",
+    "static/media/Certificate_A1_Goethe.jpg": "/web-portfolio/static/media/Certificate_A1_Goethe.9953f57cce7bc0fc2767.jpg",
     "static/media/img2.webp": "/web-portfolio/static/media/img2.2f9f2722e07f36b82373.webp",
     "static/media/doc1.pdf": "/web-portfolio/static/media/doc1.a395f8c4479491baf2d0.pdf",
     "static/media/img1.webp": "/web-portfolio/static/media/img1.f92b29c515406ad24101.webp",
@@ -10,7 +11,6 @@
     "static/media/CV_PhamLeTuanAnh_DEU.pdf": "/web-portfolio/static/media/CV_PhamLeTuanAnh_DEU.38d2c6437f5b75dc4c7c.pdf",
     "static/media/CV_PhamLeTuanAnh_ENG.pdf": "/web-portfolio/static/media/CV_PhamLeTuanAnh_ENG.5bcc0ab8f05c6a0d196e.pdf",
     "static/media/img3_thumbnail.jpg": "/web-portfolio/static/media/img3_thumbnail.5912c6bfdd77f8da47e3.jpg",
-    "static/media/Certificate_A1_Goethe.jpg": "/web-portfolio/static/media/Certificate_A1_Goethe.b46be1d065d32de7835e.jpg",
     "static/media/myAva.jpg": "/web-portfolio/static/media/myAva.a76d25c0e036318620dc.jpg",
     "static/media/sqlicon-removebg-preview.png": "/web-portfolio/static/media/sqlicon-removebg-preview.a212a735098c31262fbb.png",
     "static/media/csharpicon-removebg-preview.png": "/web-portfolio/static/media/csharpicon-removebg-preview.ad1e81115bdf16a22369.png",
@@ -21,10 +21,10 @@
     "static/media/excelIcon.png": "/web-portfolio/static/media/excelIcon.18b2ea21075ddfaf9a00.png",
     "index.html": "/web-portfolio/index.html",
     "main.c3cf2876.css.map": "/web-portfolio/static/css/main.c3cf2876.css.map",
-    "main.91e15b5d.js.map": "/web-portfolio/static/js/main.91e15b5d.js.map"
+    "main.b182aa0c.js.map": "/web-portfolio/static/js/main.b182aa0c.js.map"
   },
   "entrypoints": [
     "static/css/main.c3cf2876.css",
-    "static/js/main.91e15b5d.js"
+    "static/js/main.b182aa0c.js"
   ]
 }
