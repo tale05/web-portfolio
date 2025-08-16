@@ -85,6 +85,21 @@
    color: gray;
 }
 
+.certificate-link {
+   display: inline-block;
+   margin-top: 8px;
+   font-size: 14px;
+   font-weight: 500;
+   color: #1976d2;
+   text-decoration: none;
+   transition: color 0.3s ease;
+}
+
+.certificate-link:hover {
+   color: #3498db;
+   text-decoration: underline;
+}
+
 @media (max-width: 600px) {
    .skills-container {
       max-width: 99vw;
