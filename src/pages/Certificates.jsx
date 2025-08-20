@@ -5,17 +5,23 @@ import { FaCertificate } from "react-icons/fa";
 // import ảnh
 import GoetheA1 from "../assets/Certificate_A1_Goethe.jpg";
 import Toeic from "../assets/Certificate_TOEIC.jpg";
+import CertificateHAT from "../assets/Certificate_HAT.pdf";
 
 const skills = [
    {
       nameListSkill: "GOETHE ZERTIFIKAT A1",
-      levelListSkill: "Goethe-Institut",
+      issuedBy: "Goethe-Institut",
       link: GoetheA1,
    },
    {
       nameListSkill: "TOEIC 605",
-      levelListSkill: "Educational Testing Service (ETS)",
+      issuedBy: "Educational Testing Service (ETS)",
       link: Toeic,
+   },
+   {
+      nameListSkill: "CERTIFICATE OF APPRECIATION",
+      issuedBy: "H.A.T Tours and Service Company Limited",
+      link: CertificateHAT,
    },
 ];
 
@@ -31,7 +37,7 @@ const Certificates = () => {
                {skills.map((skill, index) => (
                   <div className="skill-card" key={index}>
                      <h3 className="nameListSkill">{skill.nameListSkill}</h3>
-                     <p className="levelListSkill">{skill.levelListSkill}</p>
+                     <p className="issuedBy">{skill.issuedBy}</p>
                      <a
                         href={skill.link}
                         target="_blank"
