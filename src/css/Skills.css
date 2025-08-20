@@ -54,20 +54,26 @@
 }
 
 .skill-card {
-   background-color: #1a1a1a;
+   background: linear-gradient(145deg, #272727, #181818); /* gradient nhẹ */
    padding: 20px;
-   border-radius: 12px;
-   transition: all 0.4s ease;
+   border-radius: 6px !important;
+   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
    cursor: pointer;
    color: #ffffff;
-   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+   box-shadow: none;
+   /* viền mờ */
 }
 
 .skill-card:hover {
-   transform: translateY(-8px) scale(1.02);
-   background-color: #f9f9f9;
+   transform: translateY(-10px) scale(1.05);
+   background: #ffffff;
    color: #222;
-   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.45);
+}
+
+.skill-card h3,
+.skill-card p {
+   transition: color 0.4s ease;
 }
 
 .iconListSkill {

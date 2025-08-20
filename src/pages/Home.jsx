@@ -91,11 +91,11 @@ const Home = () => {
                         </span>
                      </div>
                   </a>
-                  <a href="#contact">
+                  {/* <a href="#contact">
                      <div class="button-container-home">
                         <span class="text-for-button-home">Contact Me</span>
                      </div>
-                  </a>
+                  </a> */}
                </div>
             </div>
          </div>
