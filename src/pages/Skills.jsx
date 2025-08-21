@@ -1,4 +1,4 @@
-import React from "react";
+import GitHubCalendar from "react-github-calendar";
 import "../css/Skills.css";
 import { FaCode, FaReact, FaProjectDiagram } from "react-icons/fa";
 import {
@@ -178,14 +178,14 @@ const projects = [
    },
    {
       icon: <FaProjectDiagram color="green" size={iconSize} />,
-      name: "Project 3: ccah-app-strain",
+      name: "Project 2: ccah-app-strain",
       desc: "This is an application system designed to manage the microorganism products of the Culture Collection of Algae at Hochiminh City (CCAH). The system provides functionalities such as product management, product approval for market distribution, and a variety of additional features.",
       sub: "CCAH-App",
       link: "https://github.com/tale05/ccah-app-strain",
    },
    {
       icon: <FaProjectDiagram color="green" size={iconSize} />,
-      name: "Project 2: ccah-web-strain",
+      name: "Project 3: ccah-web-strain",
       desc: "This website promotes microorganism products from the Culture Collection of Algae at Hochiminh City (CCAH), under Ho Chi Minh City University of Industry and Trade, and highlights its research on biodiversity, biotechnology, and microalgae applications.",
       sub: "ccah.edu.vn",
       link: "https://github.com/tale05/ccah-web-strain",
@@ -258,6 +258,25 @@ const Skills = () => {
          </div>
 
          <h2>+ Projects I’ve Worked On 📂</h2>
+         <div className="skills-github-calendar">
+            <div className="github-stats">
+               <img
+                  src="https://github-readme-stats.vercel.app/api?username=tale05&show_icons=true&theme=transparent"
+                  alt="GitHub stats"
+               />
+            </div>
+            <div className="github-calendar">
+               <GitHubCalendar
+                  username="tale05"
+                  blockSize={15}
+                  blockMargin={5}
+                  color="#4caf50"
+                  fontSize={16}
+                  showWeekdayLabels={true}
+                  style={{ width: "100%", maxWidth: "900px", color: "#fff" }}
+               />
+            </div>
+         </div>
          <div className="skills-section">
             <div className="skills-grid">
                {projects.map((project, index) => (
