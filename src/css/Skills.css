@@ -54,21 +54,20 @@
 }
 
 .skill-card {
-   background: linear-gradient(145deg, #333232, #1f1e1e);
+   background: linear-gradient(145deg, #3b3b3b, #1f1e1e);
    padding: 20px;
    border-radius: 6px !important;
    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
    cursor: pointer;
    color: #ffffff;
    box-shadow: none;
-   /* viền mờ */
 }
 
 .skill-card:hover {
-   transform: translateY(-10px) scale(1.05);
+   transform: none !important;
    background: #ffffff;
    color: #222;
-   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.45);
+   box-shadow: 0 10px 30px var(--my-color) !important;
 }
 
 .skill-card h3,

@@ -1,21 +1,24 @@
 import "../css/Languages.css";
 import { FaGlobe } from "react-icons/fa";
+import flag_vn from "../assets/flags/flag_vietnam.png";
+import flag_de from "../assets/flags/flag_germany.png";
+import flag_en from "../assets/flags/flag_eng.png";
 
 const skills = [
    {
-      iconListSkill: null,
-      nameListSkill: "Vietnamese",
+      iconListSkill: flag_vn,
+      nameListSkill: " Vietnamese",
       levelListSkill: "Native",
    },
    {
-      iconListSkill: null,
-      nameListSkill: "English",
-      levelListSkill: "Advanced",
-   },
-   {
-      iconListSkill: null,
+      iconListSkill: flag_de,
       nameListSkill: "German",
       levelListSkill: "Basic (A1)",
+   },
+   {
+      iconListSkill: flag_en,
+      nameListSkill: "English",
+      levelListSkill: "Advanced",
    },
 ];
 
@@ -30,6 +33,12 @@ const Languages = () => {
             <div className="skills-grid">
                {skills.map((skill, index) => (
                   <div className="skill-card" key={index}>
+                     <img
+                        src={skill.iconListSkill}
+                        alt={skill.nameListSkill}
+                        className="iconListSkill"
+                        width="30"
+                     />
                      <h3 className="nameListSkill">{skill.nameListSkill}</h3>
                      <p className="levelListSkill">{skill.levelListSkill}</p>
                   </div>

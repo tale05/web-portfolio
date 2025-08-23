@@ -173,22 +173,25 @@ const projects = [
       icon: <FaProjectDiagram color="green" size={iconSize} />,
       name: "Project 1: web-tour-hat",
       desc: "This is the official website of H.A.T Travel Company, designed to promote tourism and provide customers with detailed information about our tours. The platform showcases a wide range of tours across Vietnam and features articles related to travel and destinations.",
-      sub: "dulichhat.com",
+      sub: "(In Production) dulichhat.com",
       link: "https://github.com/tale05/web-tour-hat",
+      titleForLink: "View Project",
    },
    {
       icon: <FaProjectDiagram color="green" size={iconSize} />,
       name: "Project 2: ccah-app-strain",
       desc: "This is an application system designed to manage the microorganism products of the Culture Collection of Algae at Hochiminh City (CCAH). The system provides functionalities such as product management, product approval for market distribution, and a variety of additional features.",
-      sub: "CCAH-App",
+      sub: "(In Production) CCAH-App",
       link: "https://github.com/tale05/ccah-app-strain",
+      titleForLink: "View Project",
    },
    {
       icon: <FaProjectDiagram color="green" size={iconSize} />,
       name: "Project 3: ccah-web-strain",
       desc: "This website promotes microorganism products from the Culture Collection of Algae at Hochiminh City (CCAH), under Ho Chi Minh City University of Industry and Trade, and highlights its research on biodiversity, biotechnology, and microalgae applications.",
-      sub: "ccah.edu.vn",
+      sub: "(In Production) ccah.edu.vn",
       link: "https://github.com/tale05/ccah-web-strain",
+      titleForLink: "View Project",
    },
    {
       icon: <FaProjectDiagram color="green" size={iconSize} />,
@@ -196,6 +199,7 @@ const projects = [
       desc: "A smart hotel management solution that simplifies daily operations. From room booking, check-in/out, and room changes to managing customers, staff, services, and equipment — everything is streamlined in one system. Built-in invoicing and powerful reporting help you stay in control and make data-driven decisions effortlessly.",
       sub: "Hotel Management App",
       link: "https://github.com/tale05/app-hotel-management",
+      titleForLink: "View Project",
    },
    {
       icon: <FaProjectDiagram color="green" size={iconSize} />,
@@ -203,11 +207,13 @@ const projects = [
       desc: "MYKINGDOM is a comprehensive toy store management app that simplifies store operations. It supports order creation, sales tracking, inventory management, and printing invoices or stock receipts. The system also provides role-based user login, product, customer, and staff management, along with reporting and revenue statistics to help store owners make informed decisions.",
       sub: "Toys-Store Management App ",
       link: "https://github.com/tale05/app-toy-store-management",
+      titleForLink: "View Project",
    },
    {
       icon: <FaProjectDiagram color="green" size={iconSize} />,
       name: "More",
       link: "https://github.com/tale05?tab=repositories",
+      titleForLink: "View More Projects",
    },
 ];
 
@@ -290,7 +296,7 @@ const Skills = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                      >
-                        View Project
+                        {project.titleForLink}
                      </a>
                      <h4 className="levelListSkill">{project.desc}</h4>
                   </div>

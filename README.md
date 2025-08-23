@@ -66,6 +66,11 @@ cd web-portfolio
 
 npm install
 
+react-github-calendar@3.4.0
+
+"react": "^19.1.1",
+"react-dom": "^19.1.1",
+
 ### 4. Chạy dự án
 
 npm start
