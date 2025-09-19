@@ -30,6 +30,28 @@ const Home = () => {
                <h2 className="neon-text-2">
                   I'm Tuan Anh, and this is where my work lives
                </h2>
+               <h4>
+                  New version of the web portfolio, link:{" "}
+                  <a
+                     href="https://tale05.github.io/web-portfolio-v2/"
+                     style={{
+                        color: "#007bff",
+                        textDecoration: "none",
+                        fontWeight: "bold",
+                     }}
+                     onMouseEnter={(e) =>
+                        (e.target.style.textDecoration = "underline")
+                     }
+                     onMouseLeave={(e) =>
+                        (e.target.style.textDecoration = "none")
+                     }
+                     target="_blank"
+                     rel="noopener noreferrer"
+                  >
+                     https://tale05.github.io/web-portfolio-v2/
+                  </a>
+               </h4>
+
                <p className="description">
                   A highly passionate individual with a strong desire to explore
                   new knowledge in software and web development, and to apply it
